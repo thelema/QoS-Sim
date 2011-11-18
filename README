@@ -9,4 +9,6 @@ To compile:
 
 To run: ./sim.native 
 
+All parameters are hard-coded into source code; to adjust them, edit the source code and recompile.
+
 Output is per-core statistics on throughput, etc.
