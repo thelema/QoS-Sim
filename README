@@ -1,0 +1,12 @@
+A single-node simulator for HTB queueing discipline
+
+Author: Eric Norige <norigeer@cse.msu.edu>
+
+Requires OCaml 3.12, Batteries Included 2.0
+
+To compile:
+    ocamlbuild sim.native
+
+To run: ./sim.native 
+
+Output is per-core statistics on throughput, etc.
